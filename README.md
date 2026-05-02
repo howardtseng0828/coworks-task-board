@@ -1,4 +1,4 @@
-﻿# Coworks 任務平台（超新手版）
+# Coworks 任務平台（超新手版）
 
 這份說明是給「第一次碰程式」的人。
 你只要照著做，就可以把網站跑起來。
@@ -26,7 +26,7 @@
 1. 開 PowerShell，進到專案資料夾
 
 ```powershell
-cd "C:\path\to\HHTCowoksWeb"
+cd "C:\path\to\coworks-task-board"
 ```
 
 2. 安裝套件
@@ -50,7 +50,7 @@ JWT_SECRET=請改成你自己的密碼字串
 
 MSSQL_HOST=你的資料庫主機
 MSSQL_PORT=1433
-MSSQL_DATABASE=HMES
+MSSQL_DATABASE=你的資料庫名稱
 MSSQL_USER=你的帳號
 MSSQL_PASSWORD=你的密碼
 MSSQL_ENCRYPT=false
